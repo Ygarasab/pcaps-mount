@@ -17,13 +17,16 @@
   },
   "homepage": "https://github.com/ygarasab/pcaps-mount#readme",
   "bin": {
-    "mount-pcap" : "./bin/mount.js",
-    "listen-pcaps" : "./bin/listen.js"
+    "mount-pcap": "bin/mount.js",
+    "listen-pcaps": "bin/listen.js"
   },
   "dependencies": {
     "node-pcap-writer": "^1.0.0",
     "ws": "^7.3.1",
     "yargs": "^15.4.1"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@ygarasab"
+  },
+  "devDependencies": {}
 }
