@@ -1,5 +1,5 @@
 {
-  "name": "pcaps-mount",
+  "name": "@ygarasab/pcaps-mount",
   "version": "1.0.0",
   "description": "Mounts pcaps received from socket",
   "main": "index.js",
