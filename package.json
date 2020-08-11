@@ -25,8 +25,5 @@
     "ws": "^7.3.1",
     "yargs": "^15.4.1"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@ygarasab"
-  },
   "devDependencies": {}
 }
