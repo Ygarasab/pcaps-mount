@@ -14,13 +14,13 @@ As said, quite specific
 
 Initialy, this library was thought to be used as a CLI. So it's likely for you to want to install it like that
 
-`npm i -g ygarasab/pcaps-mount`
+`npm i -g pcaps-mount`
 
 That way, you are able to use it as CLI.
 
 But, of course, if you want to use it as dependency, you can go with
 
-`npm i ygarasab/pcaps-mount`
+`npm i pcaps-mount`
 
 ## Using the CLI    
 
