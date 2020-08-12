@@ -6,7 +6,7 @@ A node.js library for catching Buffers through a socket, and writing them down o
 
 This library was written with the only goal of facilitating packet gathering for the Teccon II project, therefore it does some pretty specific stuff.
 
-So, what it does, it listen to a WebSocket server, gets a Buffer out of it, chops the buffer into packets with a specific length (default 1424) and writes it into a .pcap for a certain amount of time.
+So, what it does, it listens to a WebSocket server, gets a Buffer out of it, chops the buffer into packets with a specific length (default 1424) and writes it into a .pcap for a certain amount of time.
 
 As said, quite specific
 
