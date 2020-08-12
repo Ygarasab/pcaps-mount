@@ -11,7 +11,7 @@
     "url": "git+https://github.com/ygarasab/pcaps-mount.git"
   },
   "author": "Ygarasab",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/ygarasab/pcaps-mount/issues"
   },
@@ -20,6 +20,13 @@
     "mount-pcap": "bin/mount.js",
     "listen-pcaps": "bin/listen.js"
   },
+  "keywords": [
+    "pcap",
+    "mount",
+    "buffer",
+    "web-socket",
+    "pcap-writer"
+  ],
   "dependencies": {
     "node-pcap-writer": "^1.0.0",
     "ws": "^7.3.1",
