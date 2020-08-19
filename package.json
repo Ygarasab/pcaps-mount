@@ -1,6 +1,6 @@
 {
   "name": "pcaps-mount",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mounts pcaps received from socket",
   "main": "index.js",
   "scripts": {

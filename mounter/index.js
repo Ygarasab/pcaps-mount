@@ -70,7 +70,8 @@ module.exports = {
 
         })
 
-    }
+    },
+    startNewPcap : writer.startNewPcap
 
 }
 
