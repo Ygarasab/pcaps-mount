@@ -28,7 +28,7 @@ const writePacketBatch = (batch, pcapWriter, verbose) => {
     let nPackets = batch.length/packetLength
     if(verbose) logBatchInfo(batch)
     for (let i = 0; i < nPackets; i++) 
-        pcapWriter.writePacket(batch.subarray(i * packetLength, (i+1) * packetLength))
+        pcapWriter.writePacket(Buffer.from(batch.subarray(i * packetLength, (i+1) * packetLength)))
 
 }
 

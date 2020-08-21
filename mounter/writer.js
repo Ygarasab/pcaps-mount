@@ -9,10 +9,9 @@ module.exports = {
      */
     startNewPcap : (outputPath, pcapName) => {
         const t = new Date()
-        const dateSection = t.getTime()
-        pcapName = pcapName || `tecconPcap-${dateSection}.pcap`
+        pcapName = pcapName || `Teccon Capture-${t.toString().replace(":", " ").replace(":", " ").split(" GMT")[0]}.pcap`
         const pcapPath = ( outputPath || __dirname + "\\generated-pcaps\\" ) + pcapName
-        const writer = new PcapWriter(pcapPath, 1424, 105)
+        const writer = new PcapWriter(pcapPath, 1424)
         return writer
 
     }
