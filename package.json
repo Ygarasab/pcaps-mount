@@ -1,6 +1,6 @@
 {
   "name": "pcaps-mount",
-  "version": "1.0.3",
+  "version": "1.2.0",
   "description": "Mounts pcaps received from socket",
   "main": "index.js",
   "scripts": {
@@ -28,10 +28,12 @@
     "pcap-writer"
   ],
   "dependencies": {
-    "node-pcap-writer": "^1.0.0",
+    "pcap-writer": "^1.0.1",
     "ws": "^7.3.1",
     "yargs": "^15.4.1"
   },
   "devDependencies": {},
-  "publishConfig": { "registry": "https://registry.npmjs.org/" }
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
